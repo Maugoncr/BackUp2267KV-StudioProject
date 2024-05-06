@@ -4,7 +4,7 @@
 	<Child>
 		<value.first>Unit configuration</value.first>
 		<value.second>
-			<Expanded>1</Expanded>
+			<Expanded>0</Expanded>
 			<Child>
 				<value.first>Unit configuration switching</value.first>
 				<value.second>
@@ -564,7 +564,7 @@
 				</value.second>
 			</Child>
 			<Child>
-				<value.first>[4]  KV-SDA04    R40000  DM10800</value.first>
+				<value.first>[4]  KV-SAD04    R40000  DM10800</value.first>
 				<value.second>
 					<Expanded>0</Expanded>
 				</value.second>
