@@ -26,7 +26,7 @@
 			<Child>
 				<value.first>[1]  KV-XD02     R34000  DM10300</value.first>
 				<value.second>
-					<Expanded>1</Expanded>
+					<Expanded>0</Expanded>
 					<Child>
 						<value.first>Data utilization application</value.first>
 						<value.second>
@@ -549,6 +549,18 @@
 				<value.first>[3]  KV-XLE02    R36000  DM10500</value.first>
 				<value.second>
 					<Expanded>0</Expanded>
+					<Child>
+						<value.first>EtherNet/IP setting</value.first>
+						<value.second>
+							<Expanded>1</Expanded>
+							<Child>
+								<value.first>[1]  NQ-MP8L</value.first>
+								<value.second>
+									<Expanded>0</Expanded>
+								</value.second>
+							</Child>
+						</value.second>
+					</Child>
 					<Child>
 						<value.first>Unit Program</value.first>
 						<value.second>
