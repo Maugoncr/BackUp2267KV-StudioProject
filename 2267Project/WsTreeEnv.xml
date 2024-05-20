@@ -200,7 +200,7 @@
 			<Child>
 				<value.first>[3]  KV-XLE02    R36000  DM10500</value.first>
 				<value.second>
-					<Expanded>0</Expanded>
+					<Expanded>1</Expanded>
 					<Child>
 						<value.first>EtherNet/IP setting</value.first>
 						<value.second>
