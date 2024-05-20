@@ -14,7 +14,7 @@
 			<Child>
 				<value.first>[0]  KV-8000A</value.first>
 				<value.second>
-					<Expanded>0</Expanded>
+					<Expanded>1</Expanded>
 					<Child>
 						<value.first>EtherNet/IP   R30000  DM10000</value.first>
 						<value.second>
@@ -26,41 +26,23 @@
 			<Child>
 				<value.first>[1]  KV-XD02     R34000  DM10300</value.first>
 				<value.second>
-					<Expanded>0</Expanded>
+					<Expanded>1</Expanded>
 					<Child>
 						<value.first>Data utilization application</value.first>
 						<value.second>
 							<Expanded>0</Expanded>
-							<Child>
-								<value.first>0:Anomaly detection</value.first>
-								<value.second>
-									<Expanded>0</Expanded>
-								</value.second>
-							</Child>
-							<Child>
-								<value.first>1:Cycle time monitor</value.first>
-								<value.second>
-									<Expanded>0</Expanded>
-								</value.second>
-							</Child>
-							<Child>
-								<value.first>2:Timing monitor</value.first>
-								<value.second>
-									<Expanded>0</Expanded>
-								</value.second>
-							</Child>
-							<Child>
-								<value.first>3:Waveform upper and lower limit monitor</value.first>
-								<value.second>
-									<Expanded>0</Expanded>
-								</value.second>
-							</Child>
 						</value.second>
 					</Child>
 					<Child>
 						<value.first>Extended data process settings</value.first>
 						<value.second>
-							<Expanded>0</Expanded>
+							<Expanded>1</Expanded>
+							<Child>
+								<value.first>0:Time series data collection</value.first>
+								<value.second>
+									<Expanded>0</Expanded>
+								</value.second>
+							</Child>
 						</value.second>
 					</Child>
 					<Child>
@@ -70,27 +52,9 @@
 							<Child>
 								<value.first>Application setting</value.first>
 								<value.second>
-									<Expanded>0</Expanded>
+									<Expanded>1</Expanded>
 									<Child>
-										<value.first>K_UA000_DRAParams(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA001_CMParams(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA002_TMParams(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA003_WMParams(System)</value.first>
+										<value.first>K_UE000_TSDParams(System)</value.first>
 										<value.second>
 											<Expanded>0</Expanded>
 										</value.second>
@@ -102,43 +66,7 @@
 								<value.second>
 									<Expanded>0</Expanded>
 									<Child>
-										<value.first>0:K_UA000_DRA(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-											<Child>
-												<value.first>Local variable</value.first>
-												<value.second>
-													<Expanded>0</Expanded>
-												</value.second>
-											</Child>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>1:K_UA001_CM(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-											<Child>
-												<value.first>Local variable</value.first>
-												<value.second>
-													<Expanded>0</Expanded>
-												</value.second>
-											</Child>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>2:K_UA002_TM(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-											<Child>
-												<value.first>Local variable</value.first>
-												<value.second>
-													<Expanded>0</Expanded>
-												</value.second>
-											</Child>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>3:K_UA003_WM(System)</value.first>
+										<value.first>4:K_UE000_TSD(System)</value.first>
 										<value.second>
 											<Expanded>0</Expanded>
 											<Child>
@@ -167,6 +95,12 @@
 											<Expanded>0</Expanded>
 										</value.second>
 									</Child>
+									<Child>
+										<value.first>K_UEL_TimeSeriesDataCollect</value.first>
+										<value.second>
+											<Expanded>0</Expanded>
+										</value.second>
+									</Child>
 								</value.second>
 							</Child>
 							<Child>
@@ -174,211 +108,19 @@
 								<value.second>
 									<Expanded>0</Expanded>
 									<Child>
-										<value.first>K_UA000_DRADataSt(System)</value.first>
+										<value.first>K_UE000_TSDBufSt(System)</value.first>
 										<value.second>
 											<Expanded>0</Expanded>
 										</value.second>
 									</Child>
 									<Child>
-										<value.first>K_UA000_DRAParamsSt(System)</value.first>
+										<value.first>K_UE000_TSDLocalSt(System)</value.first>
 										<value.second>
 											<Expanded>0</Expanded>
 										</value.second>
 									</Child>
 									<Child>
-										<value.first>K_UA001_CMAutoThresholdSettingSt(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA001_CMChartOneSt(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA001_CMChartSt(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA001_CMFlowIFSt(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA001_CMHistogramSt(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA001_CMInternalApplicationSettingSt(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA001_CMParamsSt(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA001_CMSettingSt(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA001_CMSystemParamsSt(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA001_CMTrendSt(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA001_CMWebHistoryIFSt_v2(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA001_CMWebMainIFSt_v2(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA002_TMAutoThresholdSettingSt(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA002_TMChartOneSt(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA002_TMChartSt(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA002_TMFlowIFSt(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA002_TMHistogramSt(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA002_TMInternalApplicationSettingSt(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA002_TMParamsSt(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA002_TMSettingSt(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA002_TMSystemParamsSt(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA002_TMTrendSt(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA002_TMWebHistoryIFSt_v2(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA002_TMWebMainIFSt_v2(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA003_WMAppParamSt(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA003_WMAutoThresholdSettingSt(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA003_WMDbSt_v2(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA003_WMFlowIFSt(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA003_WMHistogramStructSt(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA003_WMHistoryDetailStructSt_v2(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA003_WMInternalAppSetSt(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA003_WMParamsSt(System)</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>K_UA003_WMSystemParamsSt(System)</value.first>
+										<value.first>K_UE000_TSDParamsSt(System)</value.first>
 										<value.second>
 											<Expanded>0</Expanded>
 										</value.second>
@@ -397,96 +139,6 @@
 						<value.first>Web dashboard</value.first>
 						<value.second>
 							<Expanded>1</Expanded>
-							<Child>
-								<value.first>0:Anomaly detection</value.first>
-								<value.second>
-									<Expanded>0</Expanded>
-									<Child>
-										<value.first>0:Master data setting</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>1:Analysis report list</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-								</value.second>
-							</Child>
-							<Child>
-								<value.first>1:Cycle time monitor</value.first>
-								<value.second>
-									<Expanded>0</Expanded>
-									<Child>
-										<value.first>0:Monitor</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>1:Setting</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>2:History</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-								</value.second>
-							</Child>
-							<Child>
-								<value.first>2:Timing monitor</value.first>
-								<value.second>
-									<Expanded>0</Expanded>
-									<Child>
-										<value.first>0:Monitor</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>1:Setting</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>2:History</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-								</value.second>
-							</Child>
-							<Child>
-								<value.first>3:Waveform upper and lower limit monitor</value.first>
-								<value.second>
-									<Expanded>0</Expanded>
-									<Child>
-										<value.first>0:Monitor</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>1:Setting</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-									<Child>
-										<value.first>2:History</value.first>
-										<value.second>
-											<Expanded>0</Expanded>
-										</value.second>
-									</Child>
-								</value.second>
-							</Child>
 							<Child>
 								<value.first>4:MainPage</value.first>
 								<value.second>
