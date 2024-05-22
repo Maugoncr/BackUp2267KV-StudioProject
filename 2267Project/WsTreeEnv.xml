@@ -14,7 +14,7 @@
 			<Child>
 				<value.first>[0]  KV-8000A</value.first>
 				<value.second>
-					<Expanded>1</Expanded>
+					<Expanded>0</Expanded>
 					<Child>
 						<value.first>EtherNet/IP   R30000  DM10000</value.first>
 						<value.second>
@@ -180,9 +180,21 @@
 				</value.second>
 			</Child>
 			<Child>
-				<value.first>[2]  KV-XL402    R35000  DM10400</value.first>
+				<value.first>[2]  KV-XL402    R50000  DM11000</value.first>
 				<value.second>
-					<Expanded>0</Expanded>
+					<Expanded>1</Expanded>
+					<Child>
+						<value.first>PROTOCOL STUDIO</value.first>
+						<value.second>
+							<Expanded>1</Expanded>
+							<Child>
+								<value.first>[1] Mass Flow Cont</value.first>
+								<value.second>
+									<Expanded>0</Expanded>
+								</value.second>
+							</Child>
+						</value.second>
+					</Child>
 					<Child>
 						<value.first>Unit Program</value.first>
 						<value.second>

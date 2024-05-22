@@ -5,7 +5,7 @@
       <Name>Main</Name>
       <SaveKey>[Ladder]Main</SaveKey>
       <DockingBarState>
-        <Key>Document@Ladder-377658040</Key>
+        <Key>Document@Ladder-561236312</Key>
         <Usable>true</Usable>
         <IsFloating>false</IsFloating>
         <DockingInfo>
@@ -21,7 +21,7 @@
           <RightIndex>-1</RightIndex>
           <BottomIndex>-1</BottomIndex>
           <MergeInfo>
-            <TabIndex>-1</TabIndex>
+            <TabIndex>1</TabIndex>
             <IsTabSelected>false</IsTabSelected>
             <TilePosition />
           </MergeInfo>
