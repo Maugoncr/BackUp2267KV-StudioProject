@@ -38,7 +38,13 @@
 						<value.second>
 							<Expanded>1</Expanded>
 							<Child>
-								<value.first>0:Collection Series</value.first>
+								<value.first>0:UpperLaserSensor</value.first>
+								<value.second>
+									<Expanded>0</Expanded>
+								</value.second>
+							</Child>
+							<Child>
+								<value.first>1:LowerLaserSensor</value.first>
 								<value.second>
 									<Expanded>0</Expanded>
 								</value.second>
@@ -59,12 +65,30 @@
 											<Expanded>0</Expanded>
 										</value.second>
 									</Child>
+									<Child>
+										<value.first>K_UE001_TSDParams(System)</value.first>
+										<value.second>
+											<Expanded>0</Expanded>
+										</value.second>
+									</Child>
 								</value.second>
 							</Child>
 							<Child>
 								<value.first>Unit Program</value.first>
 								<value.second>
 									<Expanded>0</Expanded>
+									<Child>
+										<value.first>0:K_UE001_TSD(System)</value.first>
+										<value.second>
+											<Expanded>0</Expanded>
+											<Child>
+												<value.first>Local variable</value.first>
+												<value.second>
+													<Expanded>0</Expanded>
+												</value.second>
+											</Child>
+										</value.second>
+									</Child>
 									<Child>
 										<value.first>4:K_UE000_TSD(System)</value.first>
 										<value.second>
@@ -121,6 +145,24 @@
 									</Child>
 									<Child>
 										<value.first>K_UE000_TSDParamsSt(System)</value.first>
+										<value.second>
+											<Expanded>0</Expanded>
+										</value.second>
+									</Child>
+									<Child>
+										<value.first>K_UE001_TSDBufSt(System)</value.first>
+										<value.second>
+											<Expanded>0</Expanded>
+										</value.second>
+									</Child>
+									<Child>
+										<value.first>K_UE001_TSDLocalSt(System)</value.first>
+										<value.second>
+											<Expanded>0</Expanded>
+										</value.second>
+									</Child>
+									<Child>
+										<value.first>K_UE001_TSDParamsSt(System)</value.first>
 										<value.second>
 											<Expanded>0</Expanded>
 										</value.second>
