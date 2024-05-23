@@ -43,6 +43,12 @@
 									<Expanded>0</Expanded>
 								</value.second>
 							</Child>
+							<Child>
+								<value.first>1:TimeSeriesUpperLSUnfilter</value.first>
+								<value.second>
+									<Expanded>0</Expanded>
+								</value.second>
+							</Child>
 						</value.second>
 					</Child>
 					<Child>
@@ -59,12 +65,30 @@
 											<Expanded>0</Expanded>
 										</value.second>
 									</Child>
+									<Child>
+										<value.first>K_UE001_TSDParams(System)</value.first>
+										<value.second>
+											<Expanded>0</Expanded>
+										</value.second>
+									</Child>
 								</value.second>
 							</Child>
 							<Child>
 								<value.first>Unit Program</value.first>
 								<value.second>
 									<Expanded>0</Expanded>
+									<Child>
+										<value.first>0:K_UE001_TSD(System)</value.first>
+										<value.second>
+											<Expanded>0</Expanded>
+											<Child>
+												<value.first>Local variable</value.first>
+												<value.second>
+													<Expanded>0</Expanded>
+												</value.second>
+											</Child>
+										</value.second>
+									</Child>
 									<Child>
 										<value.first>4:K_UE000_TSD(System)</value.first>
 										<value.second>
@@ -125,6 +149,24 @@
 											<Expanded>0</Expanded>
 										</value.second>
 									</Child>
+									<Child>
+										<value.first>K_UE001_TSDBufSt(System)</value.first>
+										<value.second>
+											<Expanded>0</Expanded>
+										</value.second>
+									</Child>
+									<Child>
+										<value.first>K_UE001_TSDLocalSt(System)</value.first>
+										<value.second>
+											<Expanded>0</Expanded>
+										</value.second>
+									</Child>
+									<Child>
+										<value.first>K_UE001_TSDParamsSt(System)</value.first>
+										<value.second>
+											<Expanded>0</Expanded>
+										</value.second>
+									</Child>
 								</value.second>
 							</Child>
 							<Child>
@@ -169,6 +211,12 @@
 									</Child>
 									<Child>
 										<value.first>4:Index5</value.first>
+										<value.second>
+											<Expanded>0</Expanded>
+										</value.second>
+									</Child>
+									<Child>
+										<value.first>5:Main VersionBackUp</value.first>
 										<value.second>
 											<Expanded>0</Expanded>
 										</value.second>
